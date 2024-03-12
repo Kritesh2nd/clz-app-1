@@ -3,7 +3,8 @@ import Header from './Header'
 import Sidebar from './Sidebar'
 import Body from './Body'
 import Footer from './Footer'
-
+import { Outlet } from 'react-router-dom'
+// import { Outlet, Link } from "react-router-dom";
 
 const Layout = () => {
   return (
@@ -16,7 +17,7 @@ const Layout = () => {
           <Sidebar/>
         </div>
         <div class="body">
-          <Body/>
+          <Outlet/>
         </div>
       </div>
       <div class="footer">

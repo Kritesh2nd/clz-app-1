@@ -1,11 +1,10 @@
 import React from 'react'
 
 const FAQ = () => {
-  const pageTitle = 'FAQ';
+  const pageTitle = 'FAQ Page';
   return (
     <div>
-      <h1>{pageTitle}</h1>
-      <p>FAQ content</p>
+      <h2>{pageTitle}</h2>
     </div>
   )
 }

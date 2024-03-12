@@ -4,13 +4,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './pages/theme/Layout';
 import "./App.css";
 
+import UserManagement from './pages/UserManagement'
+import FAQ from './pages/FAQ'
+import Contact from './pages/Contact'
+
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="faq" element={<h2>FAQ</h2>}/>
-          <Route path="contact" element={<h2>contact</h2>}/>
+          <Route path="/user-management" element={<UserManagement/>}/>
+          <Route path="/faq" element={<FAQ/>}/>
+          <Route path="/contact" element={<Contact/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
