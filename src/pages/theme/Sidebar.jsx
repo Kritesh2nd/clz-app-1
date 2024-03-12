@@ -5,14 +5,14 @@ const Sidebar = () => {
   return (
     <div>
       <ul className="sidebar-nav">
-        <li>
-          <Link to="/user-management" className='txt'>User Management</Link>
+        <li className='bor'>
+          <Link to="/user-management" className='sidebar-nav-link'>User Management</Link>
+        </li>
+        <li className='bor'>
+          <Link to="/faq" className='sidebar-nav-link'>FAQ</Link>
         </li>
         <li>
-          <Link to="/faq" className='txt'>FAQ</Link>
-        </li>
-        <li>
-          <Link to="/contact" className='txt'>Contact</Link>
+          <Link to="/contact" className='sidebar-nav-link'>Contact</Link>
         </li>
       </ul>
     </div>
