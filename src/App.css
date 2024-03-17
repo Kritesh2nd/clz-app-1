@@ -59,3 +59,23 @@
 }
 
 
+.umTable{
+  font-family:Arial, Helvetica, sans-serif;
+  border-collapse:collapse;
+  width: 100%;
+}
+
+.umTable td, .umTable th{
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.umTable tr:nth-child(even){
+  background-color: #ddd;
+}
+
+.w300px{width: 300px;}
+
+.bgw03{background-color: rgba(255,255,255,.3);}
+.bgw01{background-color: rgba(255,255,255,.1);}
